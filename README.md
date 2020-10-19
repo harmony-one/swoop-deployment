@@ -18,7 +18,7 @@ yarn install
 
 ## Smart Contracts
 
-The smart contract deployment of Swoop contains of two mandatory steps (core and periphery) and an optional step (extra) depending on if you've already deployed required/supporting third party contracts or not.
+The smart contract deployment of Swoop contains of two mandatory steps (core and periphery) and an optional step (external) depending on if you've already deployed required/supporting third party contracts or not.
 
 ### Core
 
