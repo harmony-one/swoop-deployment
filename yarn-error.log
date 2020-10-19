@@ -1,0 +1,74 @@
+Arguments: 
+  /Users/sebastianjohnsson/.nvm/versions/node/v12.18.3/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/sebastianjohnsson/.nvm/versions/node/v12.18.3/bin:/usr/local/opt/node@12/bin:/Users/sebastianjohnsson/.pyenv/shims:/Users/sebastianjohnsson/.gvm/pkgsets/go1.14.8/global/bin:/Users/sebastianjohnsson/.gvm/gos/go1.14.8/bin:/Users/sebastianjohnsson/.gvm/pkgsets/go1.14.8/global/overlay/bin:/Users/sebastianjohnsson/.gvm/bin:/Users/sebastianjohnsson/.gvm/bin:/Users/sebastianjohnsson/Library/Python/3.7/bin:/Users/sebastianjohnsson/.cargo/bin:/Users/sebastianjohnsson/Library/Android/sdk/emulator:/Users/sebastianjohnsson/Library/Android/sdk/tools:/Users/sebastianjohnsson/Library/Android/sdk/platform-tools:/usr/local/opt/mysql@5.7/bin:/usr/local/sbin:/Users/sebastianjohnsson/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin::/Users/sebastianjohnsson/Programming/Golang/bin:/Users/sebastianjohnsson/.gvm/gos/go1.14.8/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sebastianjohnsson/Programming/Solidity/swoop/swoop-deploy/package.json: Unexpected token } in JSON at position 871
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@harmony-swoop/core",
+    "description": "🎛 Core contracts for the UniswapV2 protocol",
+    "version": "1.2.0",
+    "homepage": "https://swap.demo.harmony.one",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/harmony-one/swoop-core"
+    },
+    "keywords": [
+      "swoop"
+    ],
+    "files": [
+      "contracts",
+      "build"
+    ],
+    "engines": {
+      "node": ">=10"
+    },
+    "devDependencies": {
+      "@ethersproject/solidity": "^5.0.2",
+      "@harmony-js/core": "^0.1.55",
+      "@harmony-swoop/core": "^1.2.0",
+      "@harmony-swoop/periphery": "^1.1.6",
+      "@harmony-swoop/misc": "^1.0.1",
+      "@harmony-swoop/utils": "^1.1.2",
+      "@types/chai": "^4.2.6",
+      "@types/mocha": "^5.2.7",
+      "dotenv": "^8.2.0",
+      "mocha": "^6.2.2",
+      "prettier": "^1.19.1",
+      "solc": "0.5.16",
+      "ts-node": "^8.5.4",
+      "tslib": "^2.0.0",
+      "typescript": "^3.7.3",
+    },
+    "scripts": {
+      "lint": "yarn prettier ./test/*.ts --check",
+      "lint:fix": "yarn prettier ./test/*.ts --write",
+      "abi": "./scripts/abi.sh"
+    },
+    "license": "GPL-3.0-or-later",
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
