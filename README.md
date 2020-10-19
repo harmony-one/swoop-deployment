@@ -4,6 +4,18 @@ This repository & tooling deploys Swoop (a Uniswap V2 fork) on Harmony.
 
 The deployment consists of two separate sections - one for smart contracts and one for client-side libraries and code.
 
+## Requirements
+
+- NodeJS version 10+
+- Yarn
+
+## Installation
+
+```
+git clone https://github.com/harmony-one/swoop-deployment.git && cd swoop-deployment
+yarn install
+```
+
 ## Smart Contracts
 
 The smart contract deployment of Swoop contains of two mandatory steps (core and periphery) and an optional step (extra) depending on if you've already deployed required/supporting third party contracts or not.
