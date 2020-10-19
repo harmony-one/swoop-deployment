@@ -2,9 +2,11 @@
 
 This repository & tooling deploys Swoop (a Uniswap V2 fork) on Harmony.
 
-The deployment consists of three parts external, core and periphery.
+The deployment consists of two separate sections - one for smart contracts and one for client-side libraries and code.
 
 ## Smart Contracts
+
+The smart contract deployment of Swoop contains of two mandatory steps (core and periphery) and an optional step (extra) depending on if you've already deployed required/supporting third party contracts or not.
 
 ### Core
 
