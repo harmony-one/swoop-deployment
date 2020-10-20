@@ -1,8 +1,8 @@
 require('dotenv').config();
 const yargs = require('yargs');
 
-const UniswapV2Router02 = require('@harmony-swoop/periphery/build/contracts/UniswapV2Router02.json');
-const { HmyEnv } = require("@harmony-swoop/utils");
+const UniswapV2Router02 = require('@swoop-exchange/periphery/build/contracts/UniswapV2Router02.json');
+const { HmyEnv } = require("@swoop-exchange/utils");
 const { deployContract, outputEnvStatus } = require("../shared/contracts");
 
 // Args

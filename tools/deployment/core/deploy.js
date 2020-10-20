@@ -1,10 +1,10 @@
 require('dotenv').config();
 const yargs = require('yargs');
 
-const UniswapV2Factory = require('@harmony-swoop/core/build/contracts/UniswapV2Factory.json');
-const { bytecode } = require('@harmony-swoop/core/build/contracts/UniswapV2Pair.json');
+const UniswapV2Factory = require('@swoop-exchange/core/build/contracts/UniswapV2Factory.json');
+const { bytecode } = require('@swoop-exchange/core/build/contracts/UniswapV2Pair.json');
 
-const { HmyEnv } = require('@harmony-swoop/utils');
+const { HmyEnv } = require('@swoop-exchange/utils');
 
 const { keccak256 } = require('@ethersproject/solidity');
 

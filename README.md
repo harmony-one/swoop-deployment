@@ -57,13 +57,13 @@ See below for already deployed contracts - most likely you won't have to perform
 
 | Contract     | Testnet                                                                                 | Mainnet     |
 | -----------  | --------------------------------------------------------------------------------------- | ----------- |
-| Multicall    | 0xd11760dc29e81cA88c66f43619897443AAEA397a (one16ytkphpfaqw23rrx7smpnzt5gw4w5wt6pf83nh) | 0x604f5c1d871fD850bde2670b1131CF4ebaced8f2 (one1vp84c8v8rlv9p00zvu93zvw0f6avak8jkh5xal) |
-| WONE         | 0xa772D488bc4F66d84bC675B168528673896eAA85 (one15aedfz9ufandsj7xwkcks55xwwyka259nz598s) | 0xe5b28FFDe40C746D61554099fd31a9b3C7453638 (one1ukegll0yp36x6c24gzvl6vdfk0r52d3c7ej76a) |
-| OneBUSD      | 0x548AA826026Fbebc614ed44d4Bb201C98a730ecE (one12j92sfszd7ltcc2w63x5hvspex98xrkwlnefzp) | 0x1fe4ab11ccE42976f8dadD073947fDc14742902B (one1rlj2kywvus5hd7x6m5rnj3lac9r59ypt3enh7t) |
-| OneBTC       | 0x8500Dd7296E08acAA4A4E1b3798F4edf2f8C4989 (one1s5qd6u5kuz9v4f9yuxehnr6wmuhccjvfhx67vm) | 0x2aE28ddC4Ed66027edFE1C949Ad9D16C51B9f1b4 (one19t3gmhzw6esz0m07rj2f4kw3d3gmnud56srx59) |
-| OneETH       | 0xC7842BF5692cE2d3e2BCb5D37Fda1B7C427459F8 (one1c7zzhatf9n3d8c4ukhfhlksm03p8gk0c793kvy) | 0x0142A920C7a3befF7F050149606b2C8a5F28ea24 (one1q9p2jgx85wl07lc9q9ykq6ev3f0j363y4r6dmj) |
-| OneChainlink | 0x30fF1eAAD316413DC74ADB3a6c3963bB239F140a (one1xrl3a2knzeqnm362mvaxcwtrhv3e79q2kealfe) | 0x1B71683486FfE6Fb1a6020fFB1a826451Bd6c554 (one1rdcksdyxlln0kxnqyrlmr2pxg5dad325r2jnq7) |
-| OneSeed      | 0x89175f245b87Ba646B1CEEB1e51BdFec3d0f193D (one13yt47fzms7axg6cua6c72x7las7s7xfawgzjjy) | 0x27e3A03c1384698D3958CAb78A29acC8EAC8f994 (one1yl36q0qns35c6w2ce2mc52dver4v37v50tne3e) |
+| Multicall    | 0xbcd3451992B923531615293Cb2b2c38ba8DE9529 (one1hnf52xvjhy34x9s49y7t9vkr3w5da9ffd3nz4u) | 0xFE4980f62D708c2A84D3929859Ea226340759320 (one1leycpa3dwzxz4pxnj2v9n63zvdq8tyeq09t0eu) |
+| WONE         | 0x7466d7d0C21Fa05F32F5a0Fa27e12bdC06348Ce2 (one1w3nd05xzr7s97vh45raz0cftmsrrfr8zg26pdl) | 0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a (one1eanyppa9hvpr0g966e6zs5hvdjxkngn6jtulua) |
+| OneBUSD      | 0x0E80905676226159cC3FF62B1876C907C91F7395 (one1p6qfq4nkyfs4nnpl7c43sakfqly37uu40nn5yj) | 0xCefa2dF6A6FAcd50E7ABe1e6664e82DCd05d5EcD (one1emazma4xltx4peatu8nxvn5zmng96hkdddgaqc) |
+| OneBTC       | 0xcA65E483e885BbECF8FBc3856593E66577e06bC2 (one1efj7fqlgska7e78mcwzktylxv4m7q67zwcvr6k) | 0x95Eb8075F7f7aFB37f5F4cC90663F709040088e1 (one1jh4cqa0h77hmxl6lfnysvclhpyzqpz8p3jfks7) |
+| OneETH       | 0x1E120B3b4aF96e7F394ECAF84375b1C661830013 (one1rcfqkw62l9h87w2wetuyxad3cescxqqnkrnfcc) | 0xdF0EEeAfc1d84Bb2d572e1cBD8CAB40dbDA0Ff6F (one1mu8wat7pmp9m94tju89a3j45pk76plm0jnm35s) |
+| OneChainlink | 0x2C6e26B2faD89bc52d043e78E3D980A08af0Ce88 (one193hzdvh6mzdu2tgy8euw8kvq5z90pn5g7j0kqd) | 0x2CD7392Dbdd387C80E1A3D910f1Ad21fC4Ad5811 (one19ntnjtda6wrusrs68kgs7xkjrlz26kq3kxezww) |
+| OneSeed      | 0x6689F57AD16c374783585ba2C77F5316789886F2 (one1v6yl27k3dsm50q6ctw3vwl6nzeuf3phj072j9r) | 0x77C1225F07EDdd8eCb1E37d04a0D4f45EAe3F051 (one1wlqjyhc8ahwcajc7xlgy5r20gh4w8uz3n45dr8) |
 
 #### Usage
 ##### Deploy Multicall and wETH contracts:
@@ -161,7 +161,7 @@ If you had to make any changes to the above mentioned files - commit the changes
 
 Repository: [https://github.com/harmony-one/swoop-interface](https://github.com/harmony-one/swoop-interface)
 
-If you had to make any changes in the previous step, first make sure to use the latest `@harmony-swoop/sdk` version in `package.json`. Then update your packages using e.g. `yarn install`.
+If you had to make any changes in the previous step, first make sure to use the latest `@swoop-exchange/sdk` version in `package.json`. Then update your packages using e.g. `yarn install`.
 
 If you've deployed a new router contract, update `ROUTER_ADDRESS` in [`src/constants/index.ts`](https://github.com/harmony-one/swoop-interface/blob/master/src/constants/index.ts) to the address of the contract you deployed. This setting is not network specific
 

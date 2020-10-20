@@ -1,7 +1,7 @@
 require('dotenv').config();
 const yargs = require('yargs');
 
-const { HmyEnv } = require("@harmony-swoop/utils");
+const { HmyEnv } = require("@swoop-exchange/utils");
 const { deployContract, outputEnvStatus } = require("../shared/contracts");
 
 // Args
@@ -43,7 +43,7 @@ async function deploy() {
 
   for (const contract in contracts) {
     const args = contracts[contract];
-    const contractJson = require(`@harmony-swoop/misc/build/contracts/${contract}`);
+    const contractJson = require(`@swoop-exchange/misc/build/contracts/${contract}`);
     const { base16Address, bech32Address } = await deployContract(network, contractJson, args);
     deployed[contract] = base16Address;
 
