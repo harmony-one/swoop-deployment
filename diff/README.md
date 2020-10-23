@@ -26,7 +26,7 @@ Diff: [UniswapV2ERC20.sol.patch](core/UniswapV2ERC20.sol.patch)
 
 #### UniswapV2Library.sol
 
-Package references have been updated:
+Package reference has been updated:
 ```
 -import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 +import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Pair.sol';
