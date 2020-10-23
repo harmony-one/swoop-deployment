@@ -2,11 +2,11 @@
 
 ## Smart Contracts
 
-The Swoop smart contract code is a very similar to the original Uniswap V2 contracts.
+The Swoop smart contract code is a very similar to the original code for the Uniswap V2 contracts.
 
-Solidity versions used to compile the contracts are =0.5.16 and >=0.6.0 (same as original Uniswap V2).
+Solidity versions used to compile the contracts are `=0.5.16` and `>=0.6.0` (same as original Uniswap V2).
 
-Diff files between the original Uniswap V2 and Swoop contracts are available in the sub folders core, periphery and lib.
+Diff files between the original Uniswap V2 and Swoop contracts are available in the sub folders [core](core/), [periphery](periphery/) and [lib](lib/).
 
 ### Core (uniswap/uniswap-v2-core -> harmony-one/swoop-core)
 
