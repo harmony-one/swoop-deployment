@@ -8,7 +8,7 @@ Solidity versions used to compile the contracts are `=0.5.16` and `>=0.6.0` (sam
 
 Diff files between the original Uniswap V2 and Swoop contracts are available in the sub folders [core](core/), [periphery](periphery/) and [lib](lib/).
 
-Empty patch files signify that there are no changes between the original Uniswap V2 code and the code used in Swoop.
+Empty diff/patch files signify that there are no changes between the original Uniswap V2 code and the code used in Swoop.
 
 ### Core (uniswap/uniswap-v2-core -> harmony-one/swoop-core)
 
