@@ -1,0 +1,27 @@
+--- ~/Programming/Solidity/uniswap/uniswap-v2-periphery/contracts/libraries/UniswapV2Library.sol	2020-10-22 23:51:04.000000000 +0200
++++ ~/Programming/Solidity/swoop/swoop-periphery/contracts/libraries/UniswapV2Library.sol	2020-10-23 13:04:54.000000000 +0200
+@@ -1,6 +1,7 @@
+ pragma solidity >=0.5.0;
+ 
+-import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
++import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Pair.sol';
++import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Factory.sol';
+ 
+ import "./SafeMath.sol";
+ 
+@@ -21,7 +22,7 @@
+                 hex'ff',
+                 factory,
+                 keccak256(abi.encodePacked(token0, token1)),
+-                hex'96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f' // init code hash
++                hex'e3c4d7c2f0f0eb6af0a666a9b54ea1196dd3676e4e4b696af853d8951f807cc5' // init code hash
+             ))));
+     }
+ 
+@@ -79,4 +80,4 @@
+             amounts[i - 1] = getAmountIn(amounts[i], reserveIn, reserveOut);
+         }
+     }
+-}
++}
+\ No newline at end of file

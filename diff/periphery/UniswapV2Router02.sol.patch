@@ -1,0 +1,19 @@
+--- ~/Programming/Solidity/uniswap/uniswap-v2-periphery/contracts/UniswapV2Router02.sol	2020-10-22 23:51:04.000000000 +0200
++++ ~/Programming/Solidity/swoop/swoop-periphery/contracts/UniswapV2Router02.sol	2020-10-20 16:00:27.000000000 +0200
+@@ -1,7 +1,7 @@
+ pragma solidity =0.6.6;
+ 
+-import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol';
+-import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
++import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Factory.sol';
++import '@swoop-exchange/lib/contracts/libraries/TransferHelper.sol';
+ 
+ import './interfaces/IUniswapV2Router02.sol';
+ import './libraries/UniswapV2Library.sol';
+@@ -443,4 +443,4 @@
+     {
+         return UniswapV2Library.getAmountsIn(factory, amountOut, path);
+     }
+-}
++}
+\ No newline at end of file

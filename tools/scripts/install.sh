@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-rm -rf *.lock node_modules
+rm -rf node_modules
 yarn install
