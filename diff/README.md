@@ -12,6 +12,8 @@ Empty diff/patch files signify that there are no changes between the original Un
 
 ### Core (uniswap/uniswap-v2-core -> harmony-one/swoop-core)
 
+Repository for the core contracts: [https://github.com/harmony-one/swoop-core](https://github.com/harmony-one/swoop-core)
+
 #### UniswapV2ERC20.sol
 
 Name and symbol have been changed from Uniswap V2 and UNI-V2 to Swoop and SWP respectively.
@@ -25,6 +27,8 @@ Name and symbol have been changed from Uniswap V2 and UNI-V2 to Swoop and SWP re
 Diff: [UniswapV2ERC20.sol.patch](core/UniswapV2ERC20.sol.patch)
 
 ### Periphery (uniswap/uniswap-v2-periphery -> harmony-one/swoop-periphery)
+
+Repository for the periphery contracts: [https://github.com/harmony-one/swoop-periphery](https://github.com/harmony-one/swoop-periphery)
 
 #### UniswapV2Library.sol
 
@@ -59,3 +63,9 @@ Package references have been updated:
 ```
 
 Diff: [UniswapV2Router02.sol.patch](periphery/UniswapV2Router02.sol.patch)
+
+### Lib (uniswap/uniswap-lib -> harmony-one/swoop-lib)
+
+Repository for the lib contracts: [https://github.com/harmony-one/swoop-lib](https://github.com/harmony-one/swoop-lib)
+
+No diffs/changes to the lib smart contracts.
