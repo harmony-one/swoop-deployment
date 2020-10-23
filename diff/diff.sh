@@ -69,8 +69,7 @@ elif [ "$repo" == "periphery" ]; then
   contracts[uniswap/uniswap-v2-periphery/contracts/interfaces/IUniswapV2Migrator.sol]=swoop/swoop-periphery/contracts/interfaces/IUniswapV2Migrator.sol
   contracts[uniswap/uniswap-v2-periphery/contracts/interfaces/IWETH.sol]=swoop/swoop-periphery/contracts/interfaces/IWETH.sol
 elif [ "$repo" == "lib" ]; then
-  # Periphery contracts
-
+  # Lib contracts
   contracts[uniswap/uniswap-lib/contracts/libraries/AddressStringUtil.sol]=swoop/swoop-lib/contracts/libraries/AddressStringUtil.sol
   contracts[uniswap/uniswap-lib/contracts/libraries/Babylonian.sol]=swoop/swoop-lib/contracts/libraries/Babylonian.sol
   contracts[uniswap/uniswap-lib/contracts/libraries/FixedPoint.sol]=swoop/swoop-lib/contracts/libraries/FixedPoint.sol
