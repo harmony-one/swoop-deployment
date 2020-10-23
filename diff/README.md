@@ -30,7 +30,6 @@ Package references have been updated:
 ```
 -import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 +import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Pair.sol';
-+import '@swoop-exchange/core/contracts/interfaces/IUniswapV2Factory.sol';
 ```
 
 Init code hash has been updated:
