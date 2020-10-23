@@ -1,4 +1,4 @@
-# Swoop vs Uniswap
+# Swoop vs Uniswap V2
 
 ## Smart Contracts
 
