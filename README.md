@@ -168,3 +168,16 @@ If you've deployed a new router contract, update `ROUTER_ADDRESS` in [`src/const
 If you've deployed a new Multicall contract (shouldn't happen all too often), you need to also change `MULTICALL_NETWORKS` in [`src/constants/multicall/index.ts`](https://github.com/harmony-one/swoop-interface/blob/master/src/constants/multicall/index.ts) to use the new set of addresses.
 
 If you've followed all the previous steps you should now have a correctly updated interface, go ahead and start it using `yarn start` and ensure that everything works as expected.
+
+#### Production deployment
+
+For the production deployment of the interface you also have to change the `.env` file and update `REACT_APP_APP_ENV` to `production`.
+
+So the file will look like this:
+```
+REACT_APP_APP_ENV="production"
+REACT_APP_CHAIN_ID="1"
+REACT_APP_NETWORK_URL="https://mainnet.infura.io/v3/be5b7ed2d1cf4de58742aefca86b82e8"
+```
+
+You don't have to worry about the other settings in that file - those are remnants from the original Uniswap code base and will eventually get removed.
