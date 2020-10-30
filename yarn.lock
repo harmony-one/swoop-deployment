@@ -178,22 +178,22 @@
     "@types/bn.js" "^4.11.3"
     bn.js "^4.11.8"
 
-"@swoop-exchange/core@^1.0.3":
+"@swoop-exchange/core@=1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@swoop-exchange/core/-/core-1.0.3.tgz#57c959eb89deeb577694cdb24fad9ca079326f22"
   integrity sha512-DVGNLmvXK8/wwZVlzndu0pDLY+Fa4AuWfNf4mkRVIa/pcBFMjnyrfw79id/La4G7yaz7NVaRqYBVFlwJrVlJPg==
 
-"@swoop-exchange/misc@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@swoop-exchange/misc/-/misc-1.0.0.tgz#5399e1e5a8da268bc3f6b4fbfbfabc901f5a41ad"
-  integrity sha512-QPBezNccMYUtjlkA7fzxgz3nmjLfLleVR9hDYzMJS2rmWSkOCu5m1nYI9WEwwc3JwS6JZogZR3xVx647WyPZSg==
+"@swoop-exchange/misc@=1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@swoop-exchange/misc/-/misc-1.0.1.tgz#d88beb00531257f372e8a038e5b0bb94d747ce6c"
+  integrity sha512-xzyd/Ge71jyLS1vJc0c/ST8lZ+BeI5MmKazRoj3s02OcM6m6DGRaysnssnvO3CIC3ifrylMIkDe7Ih+tRUgoWw==
 
-"@swoop-exchange/periphery@^1.0.1":
+"@swoop-exchange/periphery@=1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@swoop-exchange/periphery/-/periphery-1.0.1.tgz#0c05c12f6e402d5a6145e254d303f175d0bb23fa"
   integrity sha512-KqREmAuZALEn5PP4mBcnIchVtoiALxExx1wADhcD+Tb1sWp5kop6yzP8+f9t+YIrC8sj8Ey6+PqiRb5MViYwKQ==
 
-"@swoop-exchange/utils@^1.0.0":
+"@swoop-exchange/utils@=1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@swoop-exchange/utils/-/utils-1.0.0.tgz#4ad569b19bb241bbe9991d3e75827756e3cb755a"
   integrity sha512-rCN2YF6EmabadnygOGKd+w5fxILWktYvvGmUsyZg8jefbBchHRVa+1s94CIy4KspjkozPReN4X4xAPcKDDNeFg==
@@ -216,9 +216,9 @@
   integrity sha512-NYrtPht0wGzhwe9+/idPaBB+TqkY9AhTvOLMkThm0IoEfLaiVQZwBwyJ5puCkO3AUCWrmcoePjp2mbFocKy4SQ==
 
 "@types/node@*":
-  version "14.14.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.2.tgz#d25295f9e4ca5989a2c610754dc02a9721235eeb"
-  integrity sha512-jeYJU2kl7hL9U5xuI/BhKPZ4vqGM/OmK6whiFAXVhlstzZhVamWhDSmHyGLIp+RVyuF9/d0dqr2P85aFj4BvJg==
+  version "14.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.6.tgz#146d3da57b3c636cc0d1769396ce1cfa8991147f"
+  integrity sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
 
 aes-js@^3.1.2:
   version "3.1.2"

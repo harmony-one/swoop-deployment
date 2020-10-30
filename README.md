@@ -59,8 +59,9 @@ See below for already deployed contracts - most likely you won't have to perform
 | -----------  | --------------------------------------------------------------------------------------- | ----------- |
 | Multicall    | 0xbcd3451992B923531615293Cb2b2c38ba8DE9529 (one1hnf52xvjhy34x9s49y7t9vkr3w5da9ffd3nz4u) | 0xFE4980f62D708c2A84D3929859Ea226340759320 (one1leycpa3dwzxz4pxnj2v9n63zvdq8tyeq09t0eu) |
 | WONE         | 0x7466d7d0C21Fa05F32F5a0Fa27e12bdC06348Ce2 (one1w3nd05xzr7s97vh45raz0cftmsrrfr8zg26pdl) | 0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a (one1eanyppa9hvpr0g966e6zs5hvdjxkngn6jtulua) |
+| WBTC         | 0x6c4387C4f570Aa8cAdcaFFc5E73ecb3D0F8Fc593 (one1d3pc0384wz4getw2llz7w0kt858cl3vn2snxr8) | 0xba174569B073439653971a19b6C44962028a77C0 (one1hgt526dswdpev5uhrgvmd3zfvgpg5a7qkvghmj) |
 | OneBUSD      | 0x0E80905676226159cC3FF62B1876C907C91F7395 (one1p6qfq4nkyfs4nnpl7c43sakfqly37uu40nn5yj) | 0xCefa2dF6A6FAcd50E7ABe1e6664e82DCd05d5EcD (one1emazma4xltx4peatu8nxvn5zmng96hkdddgaqc) |
-| OneBTC       | 0xcA65E483e885BbECF8FBc3856593E66577e06bC2 (one1efj7fqlgska7e78mcwzktylxv4m7q67zwcvr6k) | 0x95Eb8075F7f7aFB37f5F4cC90663F709040088e1 (one1jh4cqa0h77hmxl6lfnysvclhpyzqpz8p3jfks7) |
+| OneBTC       | 0xaCb9f2E4d669f1F725544da7F22D17D275Af6917 (one14jul9exkd8clwf25fknlytgh6f6676ghm39qf9) | 0x9a9E49FE7A97566Cab3798BeAea259BbCddA2EaE (one1n20ynln6jatxe2ehnzl2agjeh0xa5t4wnt6zfl) |
 | OneETH       | 0x1E120B3b4aF96e7F394ECAF84375b1C661830013 (one1rcfqkw62l9h87w2wetuyxad3cescxqqnkrnfcc) | 0xdF0EEeAfc1d84Bb2d572e1cBD8CAB40dbDA0Ff6F (one1mu8wat7pmp9m94tju89a3j45pk76plm0jnm35s) |
 | OneChainlink | 0x2C6e26B2faD89bc52d043e78E3D980A08af0Ce88 (one193hzdvh6mzdu2tgy8euw8kvq5z90pn5g7j0kqd) | 0x2CD7392Dbdd387C80E1A3D910f1Ad21fC4Ad5811 (one19ntnjtda6wrusrs68kgs7xkjrlz26kq3kxezww) |
 | OneSeed      | 0x6689F57AD16c374783585ba2C77F5316789886F2 (one1v6yl27k3dsm50q6ctw3vwl6nzeuf3phj072j9r) | 0x77C1225F07EDdd8eCb1E37d04a0D4f45EAe3F051 (one1wlqjyhc8ahwcajc7xlgy5r20gh4w8uz3n45dr8) |

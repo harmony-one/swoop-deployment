@@ -39,6 +39,7 @@ async function deploy() {
     contracts['OneETH'] = [];
     contracts['OneChainlink'] = [];
     contracts['OneSeed'] = [];
+    contracts['WBTC'] = [];
   }
 
   for (const contract in contracts) {
