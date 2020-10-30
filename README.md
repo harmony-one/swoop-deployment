@@ -43,7 +43,7 @@ export NETWORK=testnet; export UNISWAPV2FACTORY=0xfD01DA6dFFD444c16157716939c789
 
 As previously mentioned - pay attention to both the UniswapV2Factory address as well as the init code hash.
 
-### External (only required for first deployment)
+### External (optional - only required for the first ever deployment on a given network)
 
 Just like Uniswap V2 on Ethereum, Swoop also depends on two separate external contracts: [Multicall by MakerDAO](https://github.com/makerdao/multicall) and [wETH/wrapped ETHER](https://github.com/gnosis/canonical-weth/blob/master/contracts/WETH9.sol).
 
@@ -155,7 +155,9 @@ The important parts that need to be changed in the SDK are the `FACTORY_ADDRESS`
 
 Please note that `FACTORY_ADDRESS` and `INIT_CODE_HASH` can't be set for multiple platforms. This is how it was originally implemented in original Uniswap - but we could look into improving this and follow a model similar to how it's dealt with regarding the wONE contracts (which can be defined for multiple network environments).
 
-If you had to make any changes to the above mentioned files - commit the changes, push/merge with [Swoop SDK](https://github.com/harmony-one/swoop-sdk) and then publish a new package on NPM using `yarn publish`.
+If you had to make any changes to the above mentioned files - run `yarn test && yarn build`. Fix any eventual test errors. If you change the `FACTORY_ADDRESS` one test will fail since it depends on which `FACTORY_ADDRESS` is set. It's also important that you run `yarn build` to ensure that the code is built for an eventual NPM release.
+
+After tests are passing, commit the changes, push/merge with [Swoop SDK](https://github.com/harmony-one/swoop-sdk) and then publish a new package on NPM using `yarn publish`.
 
 ### Swoop Interface
 
